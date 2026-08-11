@@ -3,33 +3,34 @@
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 68%
-    left: -10%
+    top: 20%
+    left: -3%
     width: 20%
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
     position: absolute
-    top: 30%
+    top: 75%
+    right: 44%
+    width: 20%
+  &-3
+    animation: float1 2.5s ease-in-out infinite alternate
+    position: absolute
+    top: 6%
     right: 10%
     width: 20%
-
-
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
 
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
   width: 58.33333333% !important
-.banner-principal__img 
-  padding-bottom: 0 !important;
 .banner-principal__row .banner-principal__img 
-    width: 33%;
+  width: 30%
     
-.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
+//.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto !important  
 
 .boton *, .boton--sm *,
@@ -39,20 +40,18 @@
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
 figcaption 
     font-weight: normal !important
 
 .banner-interno__titulo__icono i
-    color: $color-acento-botones !important;
+    color: $color-acento-botones !important
 
 
 /**************************************************************/
 /***CUSTOM STYLES***/
 /**************************************************************/
 .p-full-width
-  padding: 3rem 3.5rem!important;
+  padding: 3rem 3.5rem!important
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
@@ -60,12 +59,14 @@ figcaption
   margin-inline: -3.3rem
 .bg-fondo
   &-1
-    //background-image: url(../assets/curso/bg/3.svg)
+    background-image: url(../assets/curso/temas/bg/30.png)
+    background-size: cover
+    background-repeat: no-repeat
 .bg-color
   &-1
-    background-color: #EBEEEE
+    background-color: #EBEEEE !important
   &-2
-    background-color: #FFF6EE 
+    background-color: #FFF6EE !important
   &-3
     background-color: #F4E9E8 
   &-4
@@ -76,10 +77,15 @@ figcaption
     background-color: #D9E6F7
   &-7
     background-color: #A4CB98
+  &-8
+    background-color: #FDAA56
+  &-9
+    background-color:  #B2BCBC
 
 .bg-color-primario
   background-color: $color-primario
-
+.bg-color-secundario
+  background-color: $color-secundario
 
 
 .subt
@@ -101,15 +107,42 @@ figcaption
     height: 80%
     z-index: 0
 
-
-
-
-
-
+.w-80x
+  width: 80px
+.tarjeta-numerada.color-adicional-1 
+  border-color: $color-adicional-1
+  .tarjeta-numerada__numero 
+    background-color: $color-adicional-1
+.tabla-a.color-acento-contenido 
+  thead 
+    background-color: #F5F9FD
+    th
+      text-align: start
+.slyder-f__btn i
+  color: $color-acento-botones
+.slyder-f.fw 
+  .slyder-f__btn i
+    color: #F4E9E8
+.acordion
+  &__activo
+    background-color: #FFF6EE
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    i
+      color: $white
 
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
+@media screen and (min-width: $bp-min-xl)
+  .img-infografica__card
+    width: 500px !important
+    .tarjeta
+      border-radius: 500px
+  .col-lg-d5
+    flex: 0 0 auto !important
+    width: 20% !important
 
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
@@ -122,16 +155,11 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
-
-  
- 
   
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
     margin-bottom: 2em  !important  
-
-  
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
