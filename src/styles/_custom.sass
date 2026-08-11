@@ -63,7 +63,43 @@ figcaption
     //background-image: url(../assets/curso/bg/3.svg)
 .bg-color
   &-1
-    background-color: $color-primario
+    background-color: #EBEEEE
+  &-2
+    background-color: #FFF6EE 
+  &-3
+    background-color: #F4E9E8 
+  &-4
+    background-color: #F5F9FD
+  &-5
+    background-color: #FEDDBB
+  &-6
+    background-color: #D9E6F7
+  &-7
+    background-color: #A4CB98
+
+.bg-color-primario
+  background-color: $color-primario
+
+
+
+.subt
+  display: flex
+  align-items: center
+  position: relative  
+  width: fit-content  
+  img
+    width: 65px
+    z-index: 1
+  h3 
+    z-index: 1
+  &::before
+    content: ''
+    position: absolute
+    background-color: #FDAA56 
+    border-radius: 100px
+    width: 100%
+    height: 80%
+    z-index: 0
 
 
 
