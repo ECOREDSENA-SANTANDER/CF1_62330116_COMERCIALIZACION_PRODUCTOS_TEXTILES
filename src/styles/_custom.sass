@@ -29,9 +29,7 @@
   width: 58.33333333% !important
 .banner-principal__row .banner-principal__img 
   width: 30%
-    
-//.banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $color-sistema-texto !important  
+     
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -96,7 +94,7 @@ figcaption
   position: relative  
   width: fit-content  
   img
-    width: 65px
+    width: 60px
     z-index: 1
   h3 
     z-index: 1
@@ -106,7 +104,7 @@ figcaption
     background-color: #FDAA56 
     border-radius: 100px
     width: 100%
-    height: 80%
+    height: 70%
     z-index: 0
 
 .w-80x
@@ -115,11 +113,19 @@ figcaption
   border-color: $color-adicional-1
   .tarjeta-numerada__numero 
     background-color: $color-adicional-1
-.tabla-a.color-acento-contenido 
-  thead 
-    background-color: #F5F9FD
-    th
-      text-align: start
+.tabla-a
+  .color-acento-contenido 
+    thead 
+      background-color: #F5F9FD
+      th
+        text-align: start
+  &.d2
+    thead 
+      background-color: #A1C0EC
+      th
+        text-align: center
+    tr:nth-child(2n)
+      background-color: #EBEEEE
 .slyder-f__btn i
   color: $color-acento-botones
 .slyder-f.fw 
@@ -133,6 +139,112 @@ figcaption
     border-color: $color-acento-botones
     i
       color: $white
+.tabs-c
+  &__header .tabs-c__tab--active 
+    background-color: $white
+    span
+      font-weight: 600
+  &__tab
+    background-color: #EBEEEE
+.linea-tiempo-d
+  &__item--selected
+    .tarjeta
+      background-color: #F4E9E8
+  &__item__number
+    background-color: #B2BCBC
+  &__item__content
+    background-color: #B2BCBC
+.tarjeta--boton.bg-color-9:hover
+  background-color: #FEDDBB
+  cursor: inherit
+.tarjeta--boton.bg-color-1:hover
+  background-color: #FEDDBB
+  cursor: inherit
+.tabs-a__tab
+  background-color: #F4E9E8
+.tarjeta-audio.color-secundario
+  .tarjeta-audio__texto
+    color: $color-sistema-texto
+    font-style: inherit !important
+    font-weight: normal
+
+.tarj-con1
+  .avatar
+    position: absolute
+    bottom: 0
+    right: -23rem
+    z-index: 1
+    @media (max-width: 1000px)
+      display: none
+  .crd--avatarHorizontal
+    position: relative
+    padding-right: 12rem
+    & > *
+      position: relative
+    p
+      margin-bottom: 0
+    &::before
+      position: absolute
+      content: ''
+      top: 0
+      right: 0
+      width: calc( 100% - 60px)
+      height: 100%
+      background-color: #FFF6EE
+    @media (max-width: 1000px)
+      padding-right: 2rem
+  .crd--first
+    &::before
+      border-top-left-radius: 30px
+      border-top-right-radius: 30px
+      background-color: #EBEEEE
+  .crd--last
+    &::before
+      border-bottom-left-radius: 30px
+      border-bottom-right-radius: 30px
+      background-color: #FFF6EE 
+  .crd--third
+    &::before
+      background-color: #EBEEEE
+.tarj-con2
+  .avatar
+    position: absolute
+    bottom: 0
+    right: -24rem
+    z-index: 1
+    @media (max-width: 1000px)
+      display: none
+  .crd--avatarHorizontal
+    position: relative
+    padding-right: 12rem
+    & > *
+      position: relative
+    p
+      margin-bottom: 0
+    &::before
+      position: absolute
+      content: ''
+      top: 0
+      right: 0
+      width: calc( 100% - 60px)
+      height: 100%
+      background-color: #FFF6EE
+    @media (max-width: 1000px)
+      padding-right: 2rem
+  .crd--first
+    &::before
+      border-top-left-radius: 30px
+      border-top-right-radius: 30px
+      background-color: #EBEEEE
+  .crd--last
+    &::before
+      border-bottom-left-radius: 30px
+      border-bottom-right-radius: 30px
+      background-color: #EBEEEE
+  .crd--third
+    &::before
+      background-color: #EBEEEE
+
 
 /**************************************************************/
 /*Media Queries*/  
@@ -161,12 +273,18 @@ figcaption
 //// TABLET MINI 768--------------------------------------
 @media screen and (max-width: $bp-min-md)
   .mb-cus
-    margin-bottom: 2em  !important  
+    margin-bottom: 2em  !important    
+  .subt::before
+    height: 92%
+    z-index: 0
 
 //// MOBILE 576--------------------------------------
 @media screen and (max-width: $bp-min-sm)
   .mb-cus
     margin-bottom: 2em  !important
+  .subt::before
+    height: 97%
+    z-index: 0
 
   
  

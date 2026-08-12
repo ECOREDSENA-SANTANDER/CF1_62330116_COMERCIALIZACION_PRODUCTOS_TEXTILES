@@ -13,7 +13,7 @@
         p La relación entre el producto textil y las necesidades del mercado permite comprender cómo las características técnicas de una tela, insumo o material se vinculan con los requerimientos de uso, consumo, producción y comercialización. Un producto textil adquiere pertinencia comercial cuando sus propiedades responden a una necesidad concreta, ya sea en vestuario, hogar, dotación, decoración, artículos funcionales, productos industriales o propuestas de moda.
         .bg-color-2.p-4
           p.mb-0 El mercado textil está conformado por diferentes tipos de consumidores, empresas, marcas, confeccionistas, distribuidores y compradores institucionales. Cada uno presenta exigencias específicas frente a calidad, precio, disponibilidad, composición, acabados, resistencia, tacto, color, mantenimiento, rendimiento y valor agregado. Por esta razón, la selección de un producto textil requiere analizar tanto sus condiciones técnicas como el contexto en el que será utilizado.
-      .col-lg-5
+      .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/t4/1.png', alt='')
 
     p.mb-4 En la comercialización de textiles, no basta con identificar el tipo de fibra, el hilo, el tejido o el acabado. También resulta necesario reconocer qué problema resuelve el material, qué beneficio aporta al producto final, qué tipo de cliente lo requiere y qué condiciones del mercado pueden favorecer su aceptación. Una tela liviana puede responder a necesidades de comodidad; un textil resistente puede resultar adecuado para dotación; un material con elasticidad puede relacionarse con prendas deportivas; una base estampada puede atender demandas de moda, temporada o diferenciación estética.
@@ -32,37 +32,37 @@
     SlyderF(columnas="col-lg-12 col-xl-4").mb-5
       .tarjeta.bg-color-9.p-4
         .row.justify-content-center.mb-3
-          .col-7.col-md-4.col-lg-6
+          .col-6.col-md-4.col-lg-6
             img(src='@/assets/curso/temas/t4/3.svg' alt='')
         h4.text-center Comodidad en el uso
         p.text-center Se relaciona con suavidad, transpirabilidad, tacto agradable y buena caída. Tiene aplicación comercial en prendas de uso diario, ropa interior, ropa infantil o prendas casuales.
       .tarjeta.bg-color-9.p-4
         .row.justify-content-center.mb-3
-          .col-7.col-md-4.col-lg-6
+          .col-6.col-md-4.col-lg-6
             img(src='@/assets/curso/temas/t4/4.svg' alt='')
         h4.text-center Durabilidad
         p.text-center Se relaciona con resistencia al rasgado, abrasión, lavado y fricción. Tiene aplicación comercial en uniformes, dotaciones, prendas laborales o productos de alto uso.
       .tarjeta.bg-color-9.p-4
         .row.justify-content-center.mb-3
-          .col-7.col-md-4.col-lg-6
+          .col-6.col-md-4.col-lg-6
             img(src='@/assets/curso/temas/t4/5.svg' alt='')
         h4.text-center Funcionalidad
         p.text-center Se relaciona con elasticidad, repelencia al agua, secado rápido o protección. Tiene aplicación comercial en ropa deportiva, prendas exteriores, textiles técnicos o productos especializados.
       .tarjeta.bg-color-9.p-4
         .row.justify-content-center.mb-3
-          .col-7.col-md-4.col-lg-6
+          .col-6.col-md-4.col-lg-6
             img(src='@/assets/curso/temas/t4/6.svg' alt='')
         h4.text-center Presentación estética
         p.text-center Se relaciona con color, brillo, textura, estampado, estructura y acabado superficial. Tiene aplicación comercial en moda, decoración, colecciones de temporada y productos diferenciados.
       .tarjeta.bg-color-9.p-4
         .row.justify-content-center.mb-3
-          .col-7.col-md-4.col-lg-6
+          .col-6.col-md-4.col-lg-6
             img(src='@/assets/curso/temas/t4/7.svg' alt='')
         h4.text-center Facilidad de mantenimiento
         p.text-center Se relaciona con estabilidad dimensional, bajo arrugado, solidez del color y cuidado sencillo. Tiene aplicación comercial en camisería, prendas institucionales, ropa de viaje o productos de rotación frecuente.
       .tarjeta.bg-color-9.p-4
         .row.justify-content-center.mb-3
-          .col-7.col-md-4.col-lg-6
+          .col-6.col-md-4.col-lg-6
             img(src='@/assets/curso/temas/t4/8.svg' alt='')
         h4.text-center Competitividad comercial
         p.text-center Se relaciona con calidad, precio, disponibilidad y rendimiento. Tiene aplicación comercial en la selección de telas para producción, distribución o venta al por mayor. 
@@ -83,69 +83,58 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.ms-3.me-5 Criterios para relacionar el producto textil con el mercado
     
-    TabsC.color-acento-botones.mb-5
+    TabsC.color-acento-botones.mb-5(data-aos='fade')
       .py-3.py-md-4(titulo="Uso final")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/t4/10.png', alt='')
-          .col-md-6.mb-4.mb-md-0
-            p Pregunta orientadora: ¿para qué producto o contexto será utilizado el textil? Este criterio define si el material es adecuado para vestuario, hogar, dotación, moda, decoración o uso técnico.    
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5
+            img(src='@/assets/curso/temas/t4/10.png', alt='')
+          .col-md-6.col-lg-5
+            p.mb-0 Pregunta orientadora: ¿para qué producto o contexto será utilizado el textil? Este criterio define si el material es adecuado para vestuario, hogar, dotación, moda, decoración o uso técnico.          
+      .py-4(titulo="Perfil del cliente")
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5            
+            img(src='@/assets/curso/temas/t4/11.png', alt='')
+          .col-md-6.col-lg-5
+            p.mb-0 Pregunta orientadora: ¿qué espera el comprador del producto textil? Este criterio orienta la presentación del material según precio, calidad, estilo, funcionalidad o valor agregado.      
+      .py-4(titulo="Propiedades técnicas")
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5            
+            img(src='@/assets/curso/temas/t4/12.png', alt='')
+          .col-md-6.col-lg-5
+            p.mb-0 Pregunta orientadora: ¿qué características físicas y funcionales presenta la tela? Este criterio permite argumentar resistencia, elasticidad, caída, absorción, tacto, gramaje o mantenimiento.      
+      .py-4(titulo="Precio y rendimiento")
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5            
+            img(src='@/assets/curso/temas/t4/13.png', alt='')
+          .col-md-6.col-lg-5
+            p.mb-0 Pregunta orientadora: ¿el costo del textil corresponde con su calidad y aprovechamiento? Este criterio incide en la viabilidad productiva, el margen comercial y la decisión de compra.      
+      .py-4(titulo="Disponibilidad")
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5            
+            img(src='@/assets/curso/temas/t4/14.png', alt='')
+          .col-md-6.col-lg-5
+            p.mb-0 Pregunta orientadora: ¿el material puede conseguirse en cantidades, colores o referencias requeridas? Este criterio favorece la continuidad productiva y el cumplimiento de pedidos.      
+      .py-4(titulo="Valor agregado")
+        .row.justify-content-center.align-items-center
+          .col-md-6.col-lg-5            
+            img(src='@/assets/curso/temas/t4/15.png', alt='')
+          .col-md-6.col-lg-5
+            p.mb-0 Pregunta orientadora: ¿qué beneficio adicional ofrece frente a otros textiles similares? Este criterio aporta diferenciación mediante acabados, desempeño, diseño, sostenibilidad o facilidad de cuidado. 
       
-      .py-3.py-md-4(titulo="Perfil del cliente")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/t4/11.png', alt='')
-          .col-md-6.mb-4.mb-md-0
-            p Pregunta orientadora: ¿qué espera el comprador del producto textil? Este criterio orienta la presentación del material según precio, calidad, estilo, funcionalidad o valor agregado.
-      
-      .py-3.py-md-4(titulo="Propiedades técnicas")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/t4/12.png', alt='')
-          .col-md-6.mb-4.mb-md-0
-            p Pregunta orientadora: ¿qué características físicas y funcionales presenta la tela? Este criterio permite argumentar resistencia, elasticidad, caída, absorción, tacto, gramaje o mantenimiento.
-      
-      .py-3.py-md-4(titulo="Precio y rendimiento")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/t4/13.png', alt='')
-          .col-md-6.mb-4.mb-md-0
-            p Pregunta orientadora: ¿el costo del textil corresponde con su calidad y aprovechamiento? Este criterio incide en la viabilidad productiva, el margen comercial y la decisión de compra.
-      
-      .py-3.py-md-4(titulo="Disponibilidad")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/t4/14.png', alt='')
-          .col-md-6.mb-4.mb-md-0
-            p Pregunta orientadora: ¿el material puede conseguirse en cantidades, colores o referencias requeridas? Este criterio favorece la continuidad productiva y el cumplimiento de pedidos.
-      
-      .py-3.py-md-4(titulo="Valor agregado")
-        .row.justify-content-center.align-items-center.mb-5
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/t4/15.png', alt='')
-          .col-md-6.mb-4.mb-md-0
-            p Pregunta orientadora: ¿qué beneficio adicional ofrece frente a otros textiles similares? Este criterio aporta diferenciación mediante acabados, desempeño, diseño, sostenibilidad o facilidad de cuidado. 
-      
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
-        .bg-color-2.p-3
+        .bg-color-2.h-100.d-flex.align-items-center.p-3
           p.mb-0 El análisis de estos criterios permite establecer una correspondencia entre el producto textil y el mercado al que se dirige. En este proceso, la ficha técnica, la muestra física, la información del proveedor, la lista de chequeo y la revisión de tendencias comerciales funcionan como herramientas de apoyo para la toma de decisiones.
-      .col-lg-5.d-none.d-lg-block
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t4/16.png', alt='')
-      .col-lg-3  
+      .col-lg-4
         p.mb-0 La identificación de necesidades del mercado requiere recopilar y organizar información sobre consumidores, competidores, productos disponibles, comportamiento de compra, precios, canales de venta y tendencias. Esta lectura permite reconocer qué textiles tienen mayor demanda, qué características busca el cliente y qué oportunidades pueden existir para introducir nuevos productos.
     
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.ms-3.me-5 Herramientas para identificar necesidades del mercado
     
-    .row.justify-content-center.mb-4
+    .row.justify-content-center
       .col-lg-8(data-aos='fade-right')
         AcordionA(tipo="b" clase-tarjeta="tarjeta bg-color-9")
           .row(titulo="Revisión del mercado")
@@ -185,7 +174,7 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.ms-3.me-5 Relación de las tendencias de moda y los textiles
     
-    .row.justify-content-center.align-items-center.bg-fondo-1.p-4.mb-5(data-aos='fade')
+    .row.justify-content-center.align-items-center.bg-fondo-1.p-4.mb-4(data-aos='fade')
       .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t4/19.png', alt='')
       .col-lg-8
@@ -227,7 +216,7 @@
             h5.text-center Influencia digital y cultural
             p.mb-0 Acelera la circulación de estilos, colores y referentes estéticos. Se aplica en la selección de textiles alineados con campañas, vitrinas, redes sociales y lanzamientos. 
     
-    .row.justify-content-center.align-items-center.mb-5(data-aos='fade')
+    .row.justify-content-center.align-items-center.mb-4(data-aos='fade')
       .col-lg-8
         .bg-color-acento-contenido.p-4
           .row.justify-content-center.align-items-center
@@ -236,7 +225,7 @@
             .col-lg-10
               p.mb-0 #[b Nota técnica:] una tendencia de moda aporta información sobre la orientación del mercado, pero no reemplaza la evaluación técnica del textil. La selección del material conserva criterios de composición, calidad, resistencia, acabados, normatividad, precio y uso final.
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.d-none.d-lg-block(data-aos='fade-right')
         img(src='@/assets/curso/temas/t4/26.png', alt='')
       .col-lg-7(data-aos='fade-left')
@@ -247,58 +236,47 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0.ms-3.me-5 Valor agregado de los textiles
     
-    .row.justify-content-center.mb-4
-      .col-lg-7  
-        .crd.crd--avatarHorizontal.crd--first.py-4.bg-color-1
+    .row.tarj-con2.mb-4(data-aos='fade')
+      .col-lg-8.position-relative
+        .avatar
+          img(src='@/assets/curso/temas/t4/27.svg', alt='')
+        .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
-              figure
-                img(src="@/assets/curso/temas/t4/28.svg", alt="alt").img100
+              img(src="@/assets/curso/temas/t4/28.svg", alt="")
             .col
               h5 Composición del material
-              p Permite responder a necesidades de confort, resistencia, elasticidad o cuidado. Se aplica en mezclas textiles para prendas de uso frecuente.
-          
-        .crd.crd--avatarHorizontal.py-4.bg-color-2
+              p Permite responder a necesidades de confort, resistencia, elasticidad o cuidado. Se aplica en mezclas textiles para prendas de uso frecuente.          
+        .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
-              figure
-                img(src="@/assets/curso/temas/t4/29.svg", alt="alt").img100
+              img(src="@/assets/curso/temas/t4/29.svg", alt="")
             .col
               h5 Acabado funcional
-              p Mejora el desempeño del producto frente a condiciones de uso. Se aplica en telas repelentes al agua, antiarrugas, suavizadas o antiencogimiento.
-          
-        .crd.crd--avatarHorizontal.crd--last.py-4.bg-color-1
+              p Mejora el desempeño del producto frente a condiciones de uso. Se aplica en telas repelentes al agua, antiarrugas, suavizadas o antiencogimiento.          
+        .crd.crd--avatarHorizontal.crd--third.py-4
           .row.align-items-center
             .col-auto
-              figure
-                img(src="@/assets/curso/temas/t4/30.svg", alt="alt").img100
+              img(src="@/assets/curso/temas/t4/30.svg", alt="")
             .col
               h5 Diseño superficial
-              p Aporta identidad estética, actualidad o diferenciación. Se aplica en estampados, texturas, efectos de brillo o relieves.
-          
-        .crd.crd--avatarHorizontal.crd--last.py-4.bg-color-2
+              p Aporta identidad estética, actualidad o diferenciación. Se aplica en estampados, texturas, efectos de brillo o relieves.          
+        .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
-              figure
-                img(src="@/assets/curso/temas/t4/31.svg", alt="alt").img100
+              img(src="@/assets/curso/temas/t4/31.svg", alt="")
             .col
               h5 Calidad comprobable
-              p Genera confianza en el comprador y reduce riesgos comerciales. Se aplica en textiles con ficha técnica, pruebas de calidad o especificaciones claras. 
-        
-        .crd.crd--avatarHorizontal.crd--last.py-4.bg-color-1
+              p Genera confianza en el comprador y reduce riesgos comerciales. Se aplica en textiles con ficha técnica, pruebas de calidad o especificaciones claras.         
+        .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
-              figure
-                img(src="@/assets/curso/temas/t4/32.svg", alt="alt").img100
+              img(src="@/assets/curso/temas/t4/32.svg", alt="")
             .col
               h5 Relación con tendencias
-              p Facilita la conexión con gustos, temporadas y comportamientos de consumo. Se aplica en bases textiles seleccionadas para colecciones de moda o campañas comerciales. 
-      .col-lg-5.position-relative
-        .avatar
-          figure
-            img(src='@/assets/curso/temas/t4/27.svg', alt='').img250
+              p Facilita la conexión con gustos, temporadas y comportamientos de consumo. Se aplica en bases textiles seleccionadas para colecciones de moda o campañas comerciales.        
     
-    p.mb-4 La decisión de compra en productos textiles se fortalece cuando el comprador comprende la relación entre características técnicas y beneficios de uso. En este sentido, la comercialización no se limita a ofrecer una tela, sino a presentar un material con argumentos claros sobre función, calidad, aplicación, tendencia, precio y valor agregado.
+    p La decisión de compra en productos textiles se fortalece cuando el comprador comprende la relación entre características técnicas y beneficios de uso. En este sentido, la comercialización no se limita a ofrecer una tela, sino a presentar un material con argumentos claros sobre función, calidad, aplicación, tendencia, precio y valor agregado.
     p.mb-4 Acceda al pódcast e identifique cómo las propiedades técnicas, las tendencias de moda y el valor agregado fortalecen la presentación comercial de un producto textil. Este recurso le permitirá relacionar la composición, la calidad, el acabado, la funcionalidad y las necesidades del cliente con argumentos claros para orientar la decisión de compra.
 
     .bg-color-3.mb-4
@@ -319,6 +297,7 @@ export default {
   name: 'Tema4',
   data: () => ({
     // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
 }
 </script>

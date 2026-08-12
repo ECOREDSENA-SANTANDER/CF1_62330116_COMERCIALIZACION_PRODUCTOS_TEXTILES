@@ -102,7 +102,7 @@
             tr
               td Artificial
               td Se obtiene de materias naturales transformadas mediante procesos industriales.
-              td Viscosa, modal, lyocell, acetato.
+              td Viscosa, modal, #[em lyocell], acetato.
               td Buena caída, suavidad y apariencia similar a fibras naturales en algunos casos.
             tr
               td Sintética
