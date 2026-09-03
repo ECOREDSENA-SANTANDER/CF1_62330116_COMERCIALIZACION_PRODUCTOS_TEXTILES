@@ -68,7 +68,7 @@
 
     p.mb-4 En la industria textil se reconocen dos tipos de calidad que permiten valorar el producto desde su concepción y desde su conformidad final: #[b la calidad de diseño y la calidad de conformidad.] Ambas resultan necesarias para determinar si un textil responde a las expectativas del mercado y a los requisitos definidos para su comercialización.
 
-    .row.justify-content-center.mb-4
+    .row.justify-content-center.mb-5
       .col-lg-4.mb-4.mb-lg-0
         .bg-color-2.d-flex.align-items-center.p-3.h-100
           p.mb-0 La calidad de diseño corresponde a las características planeadas para el producto antes de su fabricación o selección comercial. Incluye la composición de la fibra, el tipo de hilo, la estructura del tejido, el acabado, la apariencia, la funcionalidad, la duración esperada y el nivel de desempeño. En este tipo de calidad se define qué características tendrá el textil para responder a una necesidad específica.
@@ -77,6 +77,10 @@
       .col-lg-3  
         p.mb-0 La calidad de conformidad permite verificar si el producto recibido o fabricado cumple las características previamente establecidas. Esta revisión compara la tela con la ficha técnica, la muestra aprobada, la etiqueta, el pedido, la normativa aplicable o los estándares internos de la empresa. Su finalidad consiste en confirmar que el producto real corresponde con lo especificado.
     
+    .subt.mb-4(data-aos='fade-right')
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0.ms-3.me-5 Tipos de calidad en textiles
+
     .tarjeta--container.row.mb-4(data-aos='fade')
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
@@ -226,17 +230,17 @@
         img(src='@/assets/curso/temas/t2/22.png', alt='')   
       .col-lg-6(data-aos='fade-left')
         LineaTiempoD.color-acento-botones
-          .row(numero="1" titulo="Prueba de encogimiento")
+          .row(numero="A" titulo="Prueba de encogimiento")
             p.mb-0 Permite identificar la variación dimensional después del lavado o tratamiento. Su resultado ayuda a anticipar cambios en talla, largo, ancho o ajuste del producto.    
-          .row(numero="2" titulo="Prueba de solidez del color")
+          .row(numero="B" titulo="Prueba de solidez del color")
             p.mb-0 Permite evaluar la resistencia del color frente al lavado, frote, luz o sudor. Su resultado ayuda a prevenir desteñido, transferencia de color o pérdida de apariencia.  
-          .row(numero="3" titulo="Prueba de resistencia")
+          .row(numero="C" titulo="Prueba de resistencia")
             p.mb-0 Permite verificar la capacidad del material para soportar tensión, rasgado, fricción o uso. Su resultado orienta la selección de telas para prendas de alto desgaste o uso frecuente.
-          .row(numero="4" titulo="Prueba de apariencia")
+          .row(numero="D" titulo="Prueba de apariencia")
             p.mb-0 Permite revisar uniformidad, manchas, barrados, textura, brillo o defectos superficiales. Su resultado facilita clasificar la tela según aceptabilidad comercial.    
-          .row(numero="5" titulo="Prueba de tacto y caída")
+          .row(numero="E" titulo="Prueba de tacto y caída")
             p.mb-0 Permite analizar sensación al contacto, flexibilidad, fluidez y comportamiento del material. Su resultado facilita la selección de telas según tipo de prenda o producto final. 
-          .row(numero="6" titulo="Prueba de mantenimiento")
+          .row(numero="F" titulo="Prueba de mantenimiento")
             p.mb-0 Permite evaluar el comportamiento frente a lavado, secado, planchado o manipulación. Su resultado permite definir recomendaciones de cuidado y uso. 
 
     p.mb-4 Estas pruebas pueden registrarse en formatos de control o listas de chequeo para facilitar el seguimiento del material recibido. En procesos comerciales, la información obtenida también fortalece la presentación del producto, porque permite explicar beneficios, limitaciones y recomendaciones de uso con mayor precisión.

@@ -315,7 +315,7 @@
     
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0.ms-3.me-5 Información mínima de etiquetado en confecciones según el Reglamento Técnico Andino
+      h3.mb-0.ms-3.me-5 Normas Técnicas Colombianas relacionadas con telas
     
     .row.mb-4
       img(src='@/assets/curso/temas/t3/29.png', alt='')
@@ -324,19 +324,19 @@
       .col-lg-4.col-md-6.mb-3
         .tarjeta-numerada.color-primario.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 A
           h5 NTC 2567
           p.mb-0 Se aplica a la clasificación por defectos en telas de tejido plano y de tejido de punto.
       .col-lg-4.col-md-6.mb-3
         .tarjeta-numerada.color-secundario.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 B
           h5 NTC 703
           p.mb-0 Se relaciona con requisitos generales y específicos para telas de tejido plano y de tejido de punto, según alcance de cada parte.
       .col-lg-4.col-md-6.mb-3
         .tarjeta-numerada.color-acento-contenido.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 C
           h5 NTC-ISO 2859
           p.mb-0 Se aplica a procedimientos de muestreo para inspección por atributos en lotes. 
     

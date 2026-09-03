@@ -10,7 +10,7 @@
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-4.mb-4.mb-lg-0
         .bg-color-2.p-3
-          p.mb-0 Este componente formativo aborda los conceptos necesarios para identificar productos textiles de acuerdo con su composición, comportamiento, aplicación y valor comercial. Para ello, se estudian aspectos relacionados con la clasificación e identificación de fibras, los tipos de hilos, la caracterización de las telas y los acabados que modifican o fortalecen sus propiedades de uso. Estos elementos permiten relacionar las condiciones técnicas del material con las necesidades del cliente y del sector productivo.
+          p.mb-0 Los textiles constituyen materiales obtenidos a partir de fibras, hilos, filamentos o estructuras entrelazadas, que permiten la elaboración de telas, insumos y productos destinados a múltiples usos dentro del sector productivo. En el campo de la comercialización, su estudio resulta fundamental porque las características de una tela inciden directamente en la calidad, el precio, la durabilidad, la presentación y la aceptación del producto en el mercado.
       .col-lg-5.d-none.d-lg-block
         img(src='@/assets/curso/temas/t1/1.png', alt='')
       .col-lg-3  
@@ -26,31 +26,31 @@
       .col-lg-d5.col-md-6.mb-3
         .tarjeta-numerada.color-primario.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 1
+            .h2 A
           h5 Origen de la fibra
           p.mb-0 Define la composición natural, artificial o sintética del textil. Este aspecto influye en el precio, la percepción de calidad y los argumentos de venta.
       .col-lg-d5.col-md-6.mb-3
         .tarjeta-numerada.color-secundario.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 2
+            .h2 B
           h5 Tipo de hilo
           p.mb-0 Determina la resistencia, el grosor, la regularidad y la apariencia del material. También afecta la durabilidad, la textura y el desempeño del producto.
       .col-lg-d5.col-md-6.mb-3
         .tarjeta-numerada.color-acento-contenido.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 3
+            .h2 C
           h5 Estructura textil
           p.mb-0 Permite reconocer si el material corresponde a tejido plano, tejido de punto, no tejido u otra estructura. Este aspecto orienta su uso en vestuario, hogar, dotación, decoración o productos técnicos.
       .col-lg-d5.col-md-6.mb-3
         .tarjeta-numerada.color-acento-botones.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 4
+            .h2 D
           h5 Acabado aplicado
           p.mb-0 Modifica la superficie, el tacto, la protección o el desempeño del textil. Además, aporta valor agregado y diferenciación frente a otros productos.
       .col-lg-d5.col-md-6.mb-3
         .tarjeta-numerada.color-adicional-1.py-4.pe-3.ps-5.h-100
           .tarjeta-numerada__numero
-            .h2 5
+            .h2 E
           h5 Comportamiento de uso
           p.mb-0 Relaciona resistencia, caída, elasticidad, absorción y mantenimiento. Esta información permite responder a necesidades funcionales del consumidor. 
     

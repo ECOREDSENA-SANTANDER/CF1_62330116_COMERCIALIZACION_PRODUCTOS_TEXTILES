@@ -69,7 +69,7 @@
     
     separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
-      h2 4.1 Reglamentos, organismos y laboratorios de referencia textil
+      h2 4.1 Relación del producto textil con el mercado
     
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-5.d-none.d-lg-block(data-aos='fade-left')

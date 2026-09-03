@@ -162,6 +162,12 @@ figcaption
   cursor: inherit
 .tabs-a__tab
   background-color: #F4E9E8
+  &__text 
+    overflow: visible
+    text-overflow: unset
+    white-space: normal     
+    word-wrap: break-word
+
 .tarjeta-audio.color-secundario
   .tarjeta-audio__texto
     color: $color-sistema-texto
@@ -249,6 +255,11 @@ figcaption
 /**************************************************************/
 /*Media Queries*/  
 /**************************************************************/
+@media screen and (min-width: $bp-min-xxl)
+  .col-lg-d5
+    flex: 0 0 auto !important
+    width: 20% !important
+
 @media screen and (min-width: $bp-min-xl)
   .img-infografica__card
     width: 500px !important
@@ -256,7 +267,7 @@ figcaption
       border-radius: 500px
   .col-lg-d5
     flex: 0 0 auto !important
-    width: 20% !important
+    width: 30% !important
 
 //// DESKTOP SMALL 1400--------------------------------------
 @media screen and (max-width: $bp-min-xxl)
