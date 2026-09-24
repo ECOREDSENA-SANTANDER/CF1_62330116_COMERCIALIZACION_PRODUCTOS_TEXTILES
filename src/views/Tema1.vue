@@ -160,14 +160,14 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/zjp1OL2DCug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/KRlaNKv5kc8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Sesión 1. Clasificación de las fibras textiles
     
     p Para continuar, identifique métodos básicos para reconocer fibras textiles y relacionarlas con el comportamiento del producto durante el uso, el cuidado y la comercialización.
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/xL89_BMN61I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Q6tPw7GuyAI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video. Sesión 3. Identificación de fibras 
     
     .row.justify-content-center.align-items-center.mb-4
@@ -222,8 +222,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/qUdbl6B18Bg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video. Sesión 4. Clasificación de los hilos 
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/Y3HmuWB9esA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video. Sesión 4. Clasificación de los hilos
 
     
     Separador

@@ -285,7 +285,7 @@
         .tarjeta.bg-white.p-4
           TarjetaAudio.color-secundario(
           texto="<b>Consulte el pódcast:</b> Producto textil, mercado y decisión de compra "
-          :audio="require_src('@/assets/actividad/audio/success.mp3')")
+          :audio="require_src('@/assets/curso/temas/t4/Podcast_CF1-62330116.mp3')")
           .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
     
     p El producto textil adquiere pertinencia cuando responde a una necesidad concreta y puede sostenerse mediante información técnica, valor comercial y correspondencia con el mercado. Esta relación permite seleccionar materiales de forma más estratégica, presentar beneficios con claridad y fortalecer la competitividad de la oferta textil.

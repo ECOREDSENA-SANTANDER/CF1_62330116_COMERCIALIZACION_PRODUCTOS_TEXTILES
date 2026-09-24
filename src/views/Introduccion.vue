@@ -26,13 +26,6 @@
     
     p.mb-4 Finalmente, el componente relaciona el producto textil con las necesidades del mercado, teniendo en cuenta el uso final, el perfil del cliente, las propiedades técnicas, la disponibilidad, el valor agregado y las tendencias de moda. Esta integración favorece la presentación de textiles con argumentos claros, funcionales y comerciales, acordes con las expectativas del cliente y las condiciones actuales del sector.
     
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. 
-
 
 </template>
 
