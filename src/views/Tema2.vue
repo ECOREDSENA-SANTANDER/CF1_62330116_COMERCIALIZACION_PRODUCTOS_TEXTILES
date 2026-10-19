@@ -266,54 +266,54 @@
           tbody
             tr
               td La composición del textil coincide con la información suministrada.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td El ancho útil corresponde con lo requerido para el producto.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td El color presenta uniformidad dentro del lote revisado.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td La superficie está libre de manchas, rotos, barrados o irregularidades notorias.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td El gramaje es coherente con el uso previsto del material.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td El textil conserva estabilidad después de prueba básica de lavado o manipulación.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td El acabado corresponde con la descripción del proveedor o ficha técnica.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td La tela presenta tacto, caída y textura adecuados para el producto final.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td Las instrucciones de cuidado están disponibles o son identificables.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
             tr
               td El material responde a la necesidad del mercado o del cliente previsto.
-              td 
-              td 
-              td 
+              td.text-center -
+              td.text-center -
+              td.text-center -
       
     p La calidad de los textiles funciona como un criterio de selección, control y argumentación comercial. Su análisis permite relacionar las propiedades del material con el uso esperado, la satisfacción del cliente y la viabilidad del producto en el mercado.
 

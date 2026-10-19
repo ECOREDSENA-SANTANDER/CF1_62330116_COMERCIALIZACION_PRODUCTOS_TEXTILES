@@ -207,7 +207,7 @@
             .row.justify-content-center.mb-3
               .col-7.col-md-4.col-lg-8
                 img(src='@/assets/curso/temas/t4/24.svg' alt='')
-            h5.text-center PConsumo responsable
+            h5.text-center Consumo responsable
             p.mb-0 Promueve materiales durables, reciclados, trazables o de menor impacto. Se aplica en portafolios con enfoque sostenible, productos de larga vida útil o comunicación de valor agregado.
           .tarjeta.bg-color-2.p-4
             .row.justify-content-center.mb-3

@@ -287,12 +287,12 @@ export default {
     },
     {
       referencia:
-        'International Organization for Standardization. (1977). ISO 3801:1977: Textiles --- Woven fabrics --- Determination of mass per unit length and mass per unit area.',
+        'International Organization for Standardization. (1977). ISO 3801:1977: Textiles - Woven fabrics - Determination of mass per unit length and mass per unit area.',
       link: '',
     },
     {
       referencia:
-        'International Organization for Standardization. (2016). ISO 105-X12:2016: Textiles --- Tests for colour fastness --- Part X12: Colour fastness to rubbing.',
+        'International Organization for Standardization. (2016). ISO 105-X12:2016: Textiles - Tests for colour fastness - Part X12: Colour fastness to rubbing.',
       link: '',
     },
     {
@@ -302,22 +302,22 @@ export default {
     },
     {
       referencia:
-        'International Organization for Standardization. (2020). ISO 12945-2:2020: Textiles --- Determination of fabric propensity to surface pilling, fuzzing or matting --- Part 2: Modified Martindale method.',
+        'International Organization for Standardization. (2020). ISO 12945-2:2020: Textiles - Determination of fabric propensity to surface pilling, fuzzing or matting - Part 2: Modified Martindale method.',
       link: '',
     },
     {
       referencia:
-        'International Organization for Standardization. (2021). ISO 6330:2021: Textiles --- Domestic washing and drying procedures for textile testing.',
+        'International Organization for Standardization. (2021). ISO 6330:2021: Textiles - Domestic washing and drying procedures for textile testing.',
       link: '',
     },
     {
       referencia:
-        'International Organization for Standardization. (2023). ISO 3758:2023: Textiles --- Care labelling code using symbols.',
+        'International Organization for Standardization. (2023). ISO 3758:2023: Textiles - Care labelling code using symbols.',
       link: '',
     },
     {
       referencia:
-        'International Organization for Standardization. (2024). ISO 7211-2:2024: Textiles --- Methods for analysis of woven fabrics construction --- Part 2: Determination of number of threads per unit length.',
+        'International Organization for Standardization. (2024). ISO 7211-2:2024: Textiles - Methods for analysis of woven fabrics construction - Part 2: Determination of number of threads per unit length.',
       link: '',
     },
     {
@@ -368,7 +368,7 @@ export default {
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Desarrollador <em>full stack</em>',
+          cargo: 'Desarrolladora <em>full stack</em>',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
@@ -382,7 +382,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Erika Daniela Manrique Rueda',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
